@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: grey;
+}
+.innerContext {
+  text-align: center;
+  border: 2px solid black;
+  width: 800px;
+  background-color: #4d7ea8;
+  border-radius: 10px;
+  margin: 80px 350px 40px;
+  box-shadow: 0 5px 10px #272932;
+}
+.title {
+  color: #b6c2d9;
+  margin: 30px;
+}
+.grocery-item {
+  background: transparent;
+  border: none;
+  border-bottom: 5px solid #9e90a2;
+  width: 750px;
+  font-size: 2rem;
+  color: #9e90a2;
+  outline: none;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+.submit-btn {
+  width: 650px;
+  height: 40px;
+  border-radius: 10px;
+  color: #b6c2d9;
+  background: transparent;
+  border: 3px solid #b6c2d9;
+  transition: all 2s ease;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+.submit-btn:hover {
+  background-color: #b6c2d9;
+  color: black;
+}
+.storeItem {
+  width: 800px;
+  margin: 0px 350px;
+  box-shadow: 0 5px 10px #272932;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #b6c2d9;
+  text-align: center;
+}
+.topic {
+  margin: 20px;
+  color: #4d7ea8;
+}
+.buttn {
+  width: 650px;
+  height: 40px;
+  border-radius: 10px;
+  color: black;
+  background: transparent;
+  border: 3px solid #4d7ea8;
+  transition: all 2s ease;
+  font-size: 1.5rem;
+  margin: 1.5rem;
+}
+.buttn:hover {
+  color: #b6c2d9;
+  background-color: #4d7ea8;
+}
+
+.grocery-store {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  transition: all 1s ease-in-out;
+  margin: 0.5rem 0;
+}
+
+.grocery-store:hover {
+  background: #828489;
+}
+
+.grocery-item__title {
+  text-align: left;
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  color: #272932;
+}
+
+.grocery-item__link {
+  color: red;
+  transition: all 2s linear;
+}
+
+.grocery-item:hover .grocery-item__link {
+  transform: scale(2);
+}
+.addItems-action,
+.displayItems-action {
+  border: 2px solid #272932;
+  padding: 0.5rem 0;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+  /* display: none; */
+}
